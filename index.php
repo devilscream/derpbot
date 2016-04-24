@@ -1,7 +1,7 @@
 <?php
 require 'flight/Flight.php';
-require 'api.php';
 require 'bot/loader.php';
+require 'api.php';
  
 Flight::route('/', function(){
     echo 'Hallo dunia, nama saya derp';
